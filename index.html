@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+        <meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+	<!-- 每个小方格的大小为16*16 -->
+        <div id="z-index">
+	<div id="game">
+		<div id="profile">
+			<h1>2048</h1>
+			<p>play 2018 game online</p>
+			<p>join the numbers and get to the 2018 tile!</p>
+			<div id="score">
+				SCORE
+				<p>15988</p>
+			</div>
+			<div id="maxscore">
+				BEST
+				<p>23460</p>
+			</div>
+			<button id="restart" class="white">重新开始</button>
+		</div>
+		<div id="view">
+			<canvas id="canvas"></canvas>
+		</div>
+	</div>
+       </div>     
+	<audio src="./voice.wav" id="voice"></audio>	
+<script type="text/javascript" src="model.js"></script>
+<script type="text/javascript" src="view.js"></script>
+<script type="text/javascript" src="controller.js"></script>
+</body>
+</html>

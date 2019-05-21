@@ -1,0 +1,56 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body,p{
+	font-family: 'microsoft yahei';
+	font-size: 16px;
+}
+.white{
+	color: #fff;
+}
+#game{
+	margin: 10px auto;
+}
+#profile{
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+#profile button{
+	position: absolute;
+	width: 100px;
+	height: 30px;
+	right: 0px;
+	bottom: 4px;
+	border: 1px solid #8F7A66;
+	background: #8F7A66;
+	border-radius: 4px;
+}
+#score,#maxscore{
+	position: absolute;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	background:#bbadae;
+	border: 1px solid #bbadae;
+	border-radius: 4px;
+	line-height: 30px;
+	color: #fff;
+}
+#maxscore p,#score p{
+	font-size: 24px;
+}
+#maxscore{
+	right: 0px;
+	top: 0px;
+}
+#score{
+	right: 110px;
+	top:0px;
+}
+#view{
+	padding: 10px;
+	background: #bbada1;
+	border-radius: 10px;
+}
